@@ -4,6 +4,7 @@ import { Container } from "@material-ui/core";
 import CardContainer from "../../components/CardContainer/index.js";
 import CardImage from "../../components/CardImage/index.js";
 
+
 function Home() {
     return (
         <div>
