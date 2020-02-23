@@ -22,8 +22,8 @@ function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
             {'Copyright © '}
-            <Link color="inherit" href="https://material-ui.com/">
-                Your Website
+            <Link color="inherit" href="https://edeniltonborba.github.io/">
+                Edenilton Borba
       </Link>{' '}
             {new Date().getFullYear()}
             {'.'}
@@ -60,7 +60,7 @@ export default function SignIn() {
             <div className={classes.paper}>
                 <Logo />
                 <Typography component="h1" variant="h5">
-                    Sign in
+                    Sign up to find the best professionals
         </Typography>
                 <form className={classes.form} noValidate>
                     <TextField
