@@ -15,6 +15,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import Logo from '../Logo';
+import AvatarNavbar from '../../components/AvatarNavbar/AvatarNavbar.js';
 
 const useStyles = makeStyles(theme => ({
     grow: {
@@ -153,7 +154,7 @@ export default function PrimarySearchAppBar() {
                     aria-haspopup="true"
                     color="inherit"
                 >
-                    <AccountCircle />
+                    <AvatarNavbar />
                 </IconButton>
                 <p>Profile</p>
             </MenuItem>
@@ -201,7 +202,7 @@ export default function PrimarySearchAppBar() {
                             onClick={handleProfileMenuOpen}
                             color="inherit"
                         >
-                            <AccountCircle />
+                            <AvatarNavbar />
                         </IconButton>
                     </div>
                     <div className={classes.sectionMobile}>
