@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home/Home.js";
-import SignUp from "./pages/SignUp/SignUp.js";
-import SearchResults from "./pages/SearchResults/SearchResults.js";
-import Profile from './pages/Profile/Profile.js';
-import SignIn from './pages/SignIn/SignIn.js';
+import Home from "./pages/Home.js";
+import SignUp from "./pages/SignUp.js";
+import Profile from './pages/Profile.js';
+import SignIn from './pages/SignIn.js';
 
 
 function App() {
