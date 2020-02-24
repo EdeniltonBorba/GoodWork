@@ -1,9 +1,7 @@
 import React from "react";
-import Navbar from "../../components/Navbar/index.js";
-import CardImage from "../../components/CardImage/index.js";
-import CardContainer from "../../components/CardContainer/index.js";
-import CardCategory from "../../components/CardCategory/index.js";
-
+import Navbar from "../components/Navbar/Navbar.js";
+import CardImage from "../components/CardImage/CardImage.js";
+import CardCategory from "../components/CardCategory/CardCategory.js";
 import { Container, Row, Col } from "../../components/Grid/index.js";
 
 
