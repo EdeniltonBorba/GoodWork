@@ -1,12 +1,16 @@
 import React from "react";
 
-function Col(props) {
-    const size = props.size
-        .split(" ")
-        .map(size => "col-" + size)
-        .join(" ");
-
-    return <div className={size} {...props} />;
+// This Col component lets us size bootstrap columns with less syntax
+// e.g. <Col size="md-12"> instead of <div className="col-md-12">
+export function Col({ size, children }) {
+    return (
+        <div
+            className={size
+                .split(" ")
+                .map(size => "col-" + size)
+                .join(" ")}
+        >
+            {children}
+        </div>
+    );
 }
-
-export default Col;
