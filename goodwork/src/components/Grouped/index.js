@@ -18,13 +18,13 @@ export default function Grouped() {
             options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
             groupBy={option => option.firstLetter}
             getOptionLabel={option => option.title}
-            style={{ width: 300 }}
+            style={{ width: 300, margin: 5 }}
             renderInput={params => <TextField {...params} label="With categories" variant="outlined" />}
         />
     );
 }
 
-// Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
+
 const top100Films = [
     { title: 'The Shawshank Redemption', year: 1994 },
     { title: 'The Godfather', year: 1972 },

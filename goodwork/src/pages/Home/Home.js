@@ -20,7 +20,7 @@ function Home() {
 
                     </Col>
                     <Col size="xs-8 sm-9">
-                        <CardImage />
+
 
                     </Col>
                 </Row>

@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
         flexWrap: 'wrap',
         '& > *': {
             margin: theme.spacing(2),
-            width: theme.spacing(400),
+            width: theme.spacing(100),
             height: theme.spacing(80),
         },
     },
@@ -21,7 +21,7 @@ export default function SimplePaper() {
         <div className={classes.root}>
             <Paper elevation={3}>
                 <h1>
-                    Borba
+
                 </h1>
             </Paper>
 
