@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import CardImgProfile from '../CardImage/CardImgProfile.js';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -20,9 +21,7 @@ export default function SimplePaper() {
     return (
         <div className={classes.root}>
             <Paper elevation={3}>
-                <h1>
-
-                </h1>
+                <CardImgProfile />
             </Paper>
 
         </div>

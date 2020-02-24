@@ -11,15 +11,14 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <Container>
+            <Container fluid>
                 <Row>
-                    <Col size="xs-4 sm-2">
+                    <Col size="md-6">
                         <CardCategory />
 
                     </Col>
-                    <Col size="xs-8 sm-9">
-
-
+                    <Col size="md-6 sm-12">
+                        <CardImage />
                     </Col>
                 </Row>
             </Container>
