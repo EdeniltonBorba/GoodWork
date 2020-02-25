@@ -13,7 +13,7 @@ function Home() {
             <Navbar />
             <Container fluid>
                 <Row>
-                    <Col size="md-6">
+                    <Col size="md-3">
                         <CardCategory />
 
                     </Col>
