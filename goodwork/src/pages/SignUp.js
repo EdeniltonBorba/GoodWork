@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link, useLocation, useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
@@ -48,6 +48,15 @@ const useStyles = makeStyles(theme => ({
 export default function SignUp() {
     const classes = useStyles();
 
+    let history = useHistory();
+
+
+    let login = () => {
+
+        history.push("/home")
+    };
+
+
     return (
         <Container component="main" maxWidth="xs">
             <CssBaseline />
@@ -90,6 +99,7 @@ export default function SignUp() {
                                 label="Email Address"
                                 name="email"
                                 autoComplete="email"
+
                             />
                         </Grid>
                         <Grid item xs={12}>
@@ -102,6 +112,7 @@ export default function SignUp() {
                                 type="password"
                                 id="password"
                                 autoComplete="current-password"
+
                             />
                         </Grid>
                         <Grid item xs={12}>
@@ -112,11 +123,11 @@ export default function SignUp() {
                         </Grid>
                     </Grid>
                     <Button
-                        type="submit"
                         fullWidth
                         variant="contained"
                         color="primary"
                         className={classes.submit}
+                        onClick={login}
                     >
                         Sign Up
           </Button>
@@ -134,4 +145,4 @@ export default function SignUp() {
             </Box>
         </Container>
     );
-}
+};
