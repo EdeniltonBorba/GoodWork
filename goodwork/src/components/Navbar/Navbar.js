@@ -95,10 +95,7 @@ export default function PrimarySearchAppBar() {
         setMobileMoreAnchorEl(null);
     };
 
-    const handleMenuClose = () => {
-        setAnchorEl(null);
-        handleMobileMenuClose();
-    };
+
 
     const handleMobileMenuOpen = event => {
         setMobileMoreAnchorEl(event.currentTarget);
@@ -113,10 +110,10 @@ export default function PrimarySearchAppBar() {
             keepMounted
             transformOrigin={{ vertical: 'top', horizontal: 'right' }}
             open={isMenuOpen}
-            onClose={handleMenuClose}
+
         >
 
-            <Link to="/Profile">
+            <Link to="/Profile" style={{ outlineColor: "none" }}>
                 <MenuItem >Profile</MenuItem>
             </Link>
 
