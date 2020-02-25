@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { Container, Row, Col } from "../components/Grid/index.js";
 import CardProfile from "../components/CardProfile/CardProfile.js";
-import AvatarProfile from "../components/CardProfile/AvatarProfile.js";
+
 
 function Profile() {
     return (
