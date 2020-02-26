@@ -53,7 +53,7 @@ export default function SignUp() {
 
     let login = () => {
 
-        history.push("/home")
+        history.push("/Home")
     };
 
 
