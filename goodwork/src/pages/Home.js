@@ -1,8 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar.js";
+import { Container, Row, Col } from "../components/Grid/index.js";
 import CardImage from "../components/CardImage/CardImage.js";
 import CardCategory from "../components/CardCategory/CardCategory.js";
-import { Container, Row, Col } from "../components/Grid/index.js";
+
+
+
 
 function Home() {
     return (
@@ -27,4 +30,3 @@ function Home() {
 }
 
 export default Home;
-
