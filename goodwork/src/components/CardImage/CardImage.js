@@ -14,13 +14,13 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function SimplePaper() {
+export default function SimplePaper({ profis }) {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
             <Paper elevation={3}>
-                <CardImgProfile />
+                <CardImgProfile profis={profis} />
             </Paper>
 
         </div>

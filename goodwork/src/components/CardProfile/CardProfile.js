@@ -15,13 +15,13 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function SimplePaper() {
+export default function SimplePaper({ profiName }) {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
             <Paper elevation={3}>
-                <AvatarProfile />
+                <AvatarProfile profiName={profiName} />
             </Paper>
         </div>
     );

@@ -18,14 +18,14 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function SimplePaper() {
+export default function SimplePaper({ setCategory, category }) {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
             <Paper elevation={3}>
                 <h1>
-                    <SelectCategory />
+                    <SelectCategory setCategory={setCategory} category={category} />
                 </h1>
             </Paper>
 
