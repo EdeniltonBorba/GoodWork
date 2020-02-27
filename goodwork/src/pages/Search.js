@@ -5,7 +5,7 @@ import { Container, Row, Col } from "../components/Grid/index.js";
 
 
 
-function Home() {
+function Search() {
     return (
         <div>
             <Navbar />
@@ -20,5 +20,5 @@ function Home() {
     )
 }
 
-export default Home;
+export default Search;
 
