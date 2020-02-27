@@ -4,6 +4,7 @@ import Home from "./pages/Home.js";
 import SignUp from "./pages/SignUp.js";
 import Profile from './pages/Profile.js';
 import SignIn from './pages/SignIn.js';
+import Search from './pages/Search.js';
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/" component={SignUp} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/SignUp" component={SignUp} />
           <Route exact path="/SignIn" component={SignIn} />
-          <Route exact path="/Home" component={Home} />
+          <Route exact path="/Search" component={Search} />
           <Route exact path="/Profile" component={Profile} />
         </Switch>
       </div>

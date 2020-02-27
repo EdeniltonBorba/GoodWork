@@ -4,9 +4,6 @@ import CardImage from "../components/CardImage/CardImage.js";
 import CardCategory from "../components/CardCategory/CardCategory.js";
 import { Container, Row, Col } from "../components/Grid/index.js";
 
-
-
-
 function Home() {
     return (
         <div>
