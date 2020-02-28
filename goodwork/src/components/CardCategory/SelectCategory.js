@@ -11,6 +11,7 @@ const BootstrapInput = withStyles(theme => ({
     root: {
         'label + &': {
             marginTop: theme.spacing(3),
+
         },
     },
     input: {
@@ -38,6 +39,7 @@ const BootstrapInput = withStyles(theme => ({
             borderRadius: 4,
             borderColor: '#80bdff',
             boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
+
         },
     },
 }))(InputBase);
@@ -46,7 +48,10 @@ const BootstrapInput = withStyles(theme => ({
 const useStyles = makeStyles(theme => ({
     margin: {
         margin: theme.spacing(1),
+        width: "-webkit-fill-available",
     },
+
+
 }));
 
 

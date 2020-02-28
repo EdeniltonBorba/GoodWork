@@ -15,8 +15,11 @@ function Home() {
 
     if (category === "Cleaning") {
         profis = [
-            { name: "Manolo" },
-            { name: "Juan" }
+            { name: "SpongeBob SquarePants" },
+            { name: "Patrick Star" },
+            { name: "Mr. Krabs" },
+            { name: "Plankton" },
+            { name: "PSandy" },
         ]
     }
     if (category === "Handyman") {
