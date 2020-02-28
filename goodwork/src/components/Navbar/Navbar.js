@@ -13,7 +13,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
-import { LogoHome } from '../Logo/index.js';
+import { LogoHome } from '../Logo/Logo.js';
 import AvatarNavbar from '../Navbar/AvatarNavbar.js';
 
 const useStyles = makeStyles(theme => ({

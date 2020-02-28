@@ -10,7 +10,7 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import { LogoSign } from '../components/Logo/index.js';
+import { LogoSign } from '../components/Logo/Logo.js';
 
 function Copyright() {
     return (
