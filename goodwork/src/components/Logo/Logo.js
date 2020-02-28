@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const logoHomeStyle = {
     fontfamily: 'Prompt',
-    fontsize: 40,
+    fontSize: 40,
     color: "white",
 };
 

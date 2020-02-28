@@ -39,10 +39,11 @@ export default function FadeMenu({ setCategory, category }) {
                 open={open}
                 onClose={handleClose}
                 TransitionComponent={Fade}
+                onChange={handleChange}
+                value={category}
             >
-                <MenuItem onClick={handleClose}>Profile</MenuItem>
-                <MenuItem onClick={handleClose}>My account</MenuItem>
-                <MenuItem onClick={handleClose}>Logout</MenuItem>
+
+                <MenuItem onClick={handleChange}>Logout</MenuItem>
                 <MenuItem onClick={handleClose}>Profile</MenuItem>
                 <MenuItem onClick={handleClose}>My account</MenuItem>
                 <MenuItem onClick={handleClose}>Logout</MenuItem>

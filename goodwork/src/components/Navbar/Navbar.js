@@ -15,7 +15,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import { LogoHome } from '../Logo/Logo.js';
 import AvatarNavbar from '../Navbar/AvatarNavbar.js';
-import ButtonList from '../ButtonList/ButtonList.js';
+
 
 const useStyles = makeStyles(theme => ({
     grow: {
@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
         display: 'none',
         [theme.breakpoints.up('sm')]: {
             display: 'block',
-            marginLeft: 100,
+            marginLeft: 80,
         },
     },
     search: {
@@ -70,6 +70,7 @@ const useStyles = makeStyles(theme => ({
         display: 'none',
         [theme.breakpoints.up('md')]: {
             display: 'flex',
+            marginRight: 80,
         },
     },
     sectionMobile: {
@@ -79,6 +80,9 @@ const useStyles = makeStyles(theme => ({
         },
     },
 }));
+
+
+
 
 
 
@@ -166,6 +170,7 @@ export default function PrimarySearchAppBar() {
         </Menu>
     );
 
+
     return (
         <div className={classes.grow}>
             <AppBar position="static">
@@ -190,15 +195,12 @@ export default function PrimarySearchAppBar() {
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
                         <IconButton aria-label="show 4 new mails" color="inherit">
-                            <ButtonList />
-                        </IconButton>
-                        <IconButton aria-label="show 4 new mails" color="inherit">
-                            <Badge badgeContent={4} color="secondary">
+                            <Badge badgeContent={0} color="secondary">
                                 <MailIcon />
                             </Badge>
                         </IconButton>
                         <IconButton aria-label="show 17 new notifications" color="inherit">
-                            <Badge badgeContent={17} color="secondary">
+                            <Badge badgeContent={0} color="secondary">
                                 <NotificationsIcon />
                             </Badge>
                         </IconButton>

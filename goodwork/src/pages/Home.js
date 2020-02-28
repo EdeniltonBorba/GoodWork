@@ -7,6 +7,7 @@ import CardCategory from "../components/CardCategory/CardCategory.js";
 
 
 
+
 function Home() {
     const [category, setCategory] = useState("cleaning")
 

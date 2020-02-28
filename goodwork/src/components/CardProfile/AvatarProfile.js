@@ -20,7 +20,7 @@ export default function ImageAvatars() {
 
     return (
         <div className={classes.root} >
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" className={classes.large} />
+            <Avatar alt="Remy Sharp" src='https://upload.wikimedia.org/wikipedia/en/3/33/Patrick_Star.svg' className={classes.large} />
         </div>
     );
 }

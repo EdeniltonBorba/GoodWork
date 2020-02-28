@@ -1,7 +1,5 @@
 
 import React from 'react';
-
-
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -63,7 +61,7 @@ export default function Grouped({ setCategory, category }) {
     }
     return (
         <FormControl className={classes.margin}>
-            <InputLabel id="demo-customized-select-label">Age</InputLabel>
+            <InputLabel id="demo-customized-select-label">Services</InputLabel>
             <Select
                 labelId="demo-customized-select-label"
                 id="demo-customized-select"

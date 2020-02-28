@@ -8,6 +8,9 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         '& > *': {
             margin: theme.spacing(1),
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
         },
     },
 }));
@@ -17,7 +20,7 @@ export default function ImageAvatars() {
 
     return (
         <div className={classes.root}>
-            <Avatar alt="Cindy Baker" src="" />
+            <Avatar alt="Patrick" src="https://upload.wikimedia.org/wikipedia/en/3/33/Patrick_Star.svg" />
         </div>
     );
 }
