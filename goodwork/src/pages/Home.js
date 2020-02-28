@@ -21,15 +21,51 @@ function Home() {
                 email: "spongeBob@spongeBob.com",
                 fone: "1234566789",
                 rating: " ",
-                reviews: " ",
+                reviews: "I love spongebob and your work is great",
                 hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
                 `,
 
             },
-            { name: "Patrick Star" },
-            { name: "Mr. Krabs" },
-            { name: "Plankton" },
-            { name: "PSandy" },
+            {
+                name: "Patrick Star",
+                img: "https://upload.wikimedia.org/wikipedia/en/3/33/Patrick_Star.svg",
+                email: "spongeBob@spongeBob.com",
+                fone: "1234566789",
+                rating: " ",
+                reviews: "I love spongebob and your work is great",
+                hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
+                `,
+            },
+            {
+                name: "Mr. Krabs",
+                img: "https://upload.wikimedia.org/wikipedia/en/f/f8/Mr._Krabs.svg",
+                email: "spongeBob@spongeBob.com",
+                fone: "1234566789",
+                rating: " ",
+                reviews: "I love spongebob and your work is great",
+                hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
+            `,
+            },
+            {
+                name: "Plankton",
+                img: "https://upload.wikimedia.org/wikipedia/en/4/49/Plankton_and_Karen.svg",
+                email: "spongeBob@spongeBob.com",
+                fone: "1234566789",
+                rating: " ",
+                reviews: "I love spongebob and your work is great",
+                hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
+            `,
+            },
+            {
+                name: "PSandy",
+                img: "https://upload.wikimedia.org/wikipedia/en/a/a0/Sandy_Cheeks.svg",
+                email: "spongeBob@spongeBob.com",
+                fone: "1234566789",
+                rating: " ",
+                reviews: "I love spongebob and your work is great",
+                hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
+        `,
+            },
         ]
     }
     if (category === "Handyman") {
