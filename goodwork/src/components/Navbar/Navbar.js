@@ -15,6 +15,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import { LogoHome } from '../Logo/Logo.js';
 import AvatarNavbar from '../Navbar/AvatarNavbar.js';
+import ButtonList from '../ButtonList/ButtonList.js';
 
 const useStyles = makeStyles(theme => ({
     grow: {
@@ -79,6 +80,8 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
+
+
 export default function PrimarySearchAppBar() {
     const classes = useStyles();
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -132,6 +135,7 @@ export default function PrimarySearchAppBar() {
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
         >
+
             <MenuItem>
                 <IconButton aria-label="show 4 new mails" color="inherit">
                     <Badge badgeContent={4} color="secondary">
@@ -185,6 +189,9 @@ export default function PrimarySearchAppBar() {
                     </div>
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
+                        <IconButton aria-label="show 4 new mails" color="inherit">
+                            <ButtonList />
+                        </IconButton>
                         <IconButton aria-label="show 4 new mails" color="inherit">
                             <Badge badgeContent={4} color="secondary">
                                 <MailIcon />
