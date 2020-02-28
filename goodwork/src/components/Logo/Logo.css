@@ -1,6 +1,14 @@
-.logo {
+.LogoHome {
     font-family: 'Prompt';
     font-size: 40px;
     color: white;
     
+};
+
+.LogoSign {
+    font-family: 'Prompt';
+    font-size: 40px;
+    color: white;
+    background-color: tomato;
+    text-align: center;
 };

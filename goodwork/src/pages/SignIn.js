@@ -10,7 +10,7 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Logo from '../components/Logo/index.js';
+import { LogoSign } from '../components/Logo/index.js';
 
 
 
@@ -32,7 +32,7 @@ const useStyles = makeStyles(theme => ({
         marginTop: theme.spacing(8),
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center',
+        textalign: 'center',
     },
     avatar: {
         margin: theme.spacing(1),
@@ -62,7 +62,7 @@ export default function SignIn() {
         <Container component="main" maxWidth="xs">
             <CssBaseline />
             <div className={classes.paper}>
-                <Logo />
+                <LogoSign />
                 <Typography component="h1" variant="h5">
                     Sign up to find the best professionals
         </Typography>

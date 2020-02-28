@@ -3,12 +3,21 @@ import { Link } from "react-router-dom";
 import "./Logo.css";
 
 
-function Logo(props) {
-    return <Link to="/Home">
-        <div className="logo">
+export function LogoHome() {
+    return (<Link to="/Home">
+        <div className="LogoHome">
             GoodWork
-        </div>
-    </Link>;
+           </div>
+    </Link>
+    );
+};
+
+export function LogoSign() {
+    return (
+        <div className="LogoSign">
+            GoodWork
+             </div>
+    )
 }
 
-export default Logo;
+

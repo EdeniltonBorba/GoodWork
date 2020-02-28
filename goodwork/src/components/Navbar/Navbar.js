@@ -13,7 +13,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
-import Logo from '../Logo/index.js';
+import { LogoHome } from '../Logo/index.js';
 import AvatarNavbar from '../Navbar/AvatarNavbar.js';
 
 const useStyles = makeStyles(theme => ({
@@ -168,7 +168,7 @@ export default function PrimarySearchAppBar() {
                 <Toolbar>
 
                     <Typography className={classes.title} variant="h6" noWrap>
-                        <Logo />
+                        <LogoHome />
                     </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>

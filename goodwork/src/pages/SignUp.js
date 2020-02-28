@@ -10,7 +10,7 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Logo from '../components/Logo/index.js';
+import { LogoSign } from '../components/Logo/index.js';
 
 function Copyright() {
     return (
@@ -61,7 +61,7 @@ export default function SignUp() {
         <Container component="main" maxWidth="xs">
             <CssBaseline />
             <div className={classes.paper}>
-                <Logo />
+                <LogoSign />
                 <Typography component="h1" variant="h5">
                     Sign up to find the best professionals
         </Typography>
