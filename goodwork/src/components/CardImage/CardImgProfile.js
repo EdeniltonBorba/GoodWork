@@ -68,14 +68,13 @@ export default function RecipeReviewCard({ profis }) {
                     />
                     <CardMedia
                         className={classes.media}
-                        image="/static/images/cards/paella.jpg"
+                        image={profi.img}
                         title="Paella dish"
                     />
                     <CardContent>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            This impressive paella is a perfect party dish and a fun meal to cook together with your
-                            guests. Add 1 cup of frozen peas along with the mussels, if you like.
-</Typography>
+                            {profi.hireMe}
+                        </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
                         <IconButton aria-label="add to favorites">
