@@ -7,10 +7,11 @@ import SelectCategory from '../CardCategory/SelectCategory.js';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        display: 'flex',
+
         flexWrap: 'wrap',
         '& > *': {
-            margin: theme.spacing(2),
+            margin: theme.spacing(11),
+            marginTop: theme.spacing(2),
             height: theme.spacing('auto'),
             alignItems: 'center',
             width: theme.spacing(25),
