@@ -11,14 +11,14 @@ import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import CallIcon from '@material-ui/icons/Call';
-
+import TextsmsIcon from '@material-ui/icons/Textsms';
 import { makeStyles } from '@material-ui/core/styles';
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import Book from "../BookAppointments/BookAppointments.js"
 
 
 const useStyles = makeStyles(theme => ({
@@ -48,6 +48,12 @@ const useStyles = makeStyles(theme => ({
 export default ({ profi }) => {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
+
+    const [isComment, showComent] = React.useState(false);
+    const [commentText, changeComent] = React.useState("");
+
+
+    const handleChange = (e) => changeComent(e.target.value)
 
     const [likes, addLikes] = React.useState(0)
     const handleExpandClick = () => {
@@ -81,9 +87,13 @@ export default ({ profi }) => {
         </CardContent>
         <CardActions disableSpacing>
             <IconButton aria-label="add to favorites" onClick={() => addLikes(likes + 1)}>
-                <FavoriteIcon />
+                <ThumbUpIcon />
             </IconButton>
-            Likes: {likes}
+            {likes}
+            <IconButton aria-label="add to favorites" onClick={() => showComent(!isComment)}>
+                <TextsmsIcon />
+            </IconButton>
+            {isComment ? <input type="text" onChange={handleChange} /> : null}
             <IconButton
                 className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -94,6 +104,11 @@ export default ({ profi }) => {
             >
                 <ExpandMoreIcon />
             </IconButton>
+
+            <IconButton>
+                <Book />
+            </IconButton>
+
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
             <CardContent>
@@ -107,7 +122,7 @@ export default ({ profi }) => {
                 </Typography>
                 <Typography paragraph>Comment:</Typography>
                 <Typography paragraph>
-                    {profi.reviews}
+                    {commentText}
                 </Typography>
 
             </CardContent>
