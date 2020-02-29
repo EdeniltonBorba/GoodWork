@@ -11,7 +11,7 @@ function Profile() {
             <Navbar />
             <Container fluid>
                 <Row>
-                    <Col size="md-6 sm-12">
+                    <Col size="md-6">
                         <CardProfile />
 
                     </Col>

@@ -64,7 +64,7 @@ export default function SignIn() {
             <div className={classes.paper}>
                 <LogoSign />
                 <Typography component="h1" variant="h5">
-                    Sign up to find the best professionals
+                    Sign in to find the best professionals
         </Typography>
                 <form className={classes.form} noValidate>
                     <TextField

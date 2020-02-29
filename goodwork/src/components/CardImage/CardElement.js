@@ -54,7 +54,7 @@ export default ({ profi }) => {
         setExpanded(!expanded);
     };
 
-    return <Card className={classes.root}>
+    return <Card className={classes.root} key={profi.name}>
         <CardHeader
             avatar={
                 <Avatar aria-label="recipe" className={classes.avatar}>

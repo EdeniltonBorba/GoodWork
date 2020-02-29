@@ -97,9 +97,7 @@ function Home() {
                 hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
             `,
             },
-            { name: "Silard" },
-            { name: "Marina" },
-            { name: "Silard" }
+
         ]
     }
 
