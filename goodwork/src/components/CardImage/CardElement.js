@@ -99,12 +99,11 @@ export default ({ profi }) => {
             <CardContent>
                 <Typography paragraph>Contact:</Typography>
                 <Typography paragraph>
-                    <MailOutlineIcon>
-                        {profi.email}
-                    </MailOutlineIcon>
+                    <MailOutlineIcon /> {profi.email}
+
                 </Typography>
                 <Typography paragraph>
-                    <CallIcon fone={profi.fone} />
+                    <CallIcon />{profi.fone}
                 </Typography>
                 <Typography paragraph>Comment:</Typography>
                 <Typography paragraph>
@@ -113,5 +112,5 @@ export default ({ profi }) => {
 
             </CardContent>
         </Collapse>
-    </Card>
+    </Card >
 }
