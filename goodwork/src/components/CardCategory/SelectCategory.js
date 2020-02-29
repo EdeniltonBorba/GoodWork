@@ -75,9 +75,6 @@ export default function Grouped({ setCategory, category }) {
                 onChange={handleChange}
                 input={<BootstrapInput />}
             >
-                <MenuItem value="None">
-                    <em>None</em>
-                </MenuItem>
                 <MenuItem value={"Cleaning"}>Cleaning</MenuItem>
                 <MenuItem value={"Handyman"}>Handyman</MenuItem>
             </Select>

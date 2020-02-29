@@ -5,11 +5,8 @@ import CardImage from "../components/CardImage/CardImage.js";
 import CardCategory from "../components/CardCategory/CardCategory.js";
 
 
-
-
-
 function Home() {
-    const [category, setCategory] = useState("cleaning")
+    const [category, setCategory] = useState("Cleaning")
 
     let profis = []
 
@@ -117,7 +114,7 @@ function Home() {
                         <CardCategory setCategory={setCategory} category={category} />
 
                     </Col>
-                    <Col size="md-6 sm-12">
+                    <Col size="md-6">
                         <CardImage profis={profis} />
                     </Col>
                 </Row>

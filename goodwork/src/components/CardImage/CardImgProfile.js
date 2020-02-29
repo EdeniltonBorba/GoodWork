@@ -52,7 +52,7 @@ export default function RecipeReviewCard({ profis }) {
 
     return (
         <React.Fragment>
-            {profis.length && profis.map(profi => {
+            {profis.length ? profis.map(profi => {
                 return <Card className={classes.root}>
                     <CardHeader
                         avatar={
@@ -115,7 +115,7 @@ export default function RecipeReviewCard({ profis }) {
                         </CardContent>
                     </Collapse>
                 </Card>
-            })}
+            }) : "Please select a category"}
         </React.Fragment>
 
     );

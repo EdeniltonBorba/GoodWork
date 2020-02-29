@@ -20,10 +20,9 @@ export default function SimplePaper({ profis }) {
 
     return (
         <div className={classes.root}>
-            <Paper elevation={3}>
+            <Paper elevation={3} style={{ height: "auto" }}>
                 <CardImgProfile profis={profis} />
             </Paper>
-
         </div>
     );
 }
