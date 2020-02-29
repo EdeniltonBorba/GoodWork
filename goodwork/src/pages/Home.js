@@ -70,9 +70,36 @@ function Home() {
     }
     if (category === "Handyman") {
         profis = [
-            { name: "Marina" },
-            { name: "Silard" },
-            { name: "Marina" },
+            {
+                name: "Steve Jobs",
+                img: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_2010-CROP2.jpg",
+                email: "stevejobs@stevejobs.com",
+                fone: "1234566789",
+                rating: " ",
+                reviews: "I love Steve Jobs and your work is great",
+                hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
+            `,
+            },
+            {
+                name: "Bill Gates",
+                img: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Dts_news_bill_gates_wikipedia.JPG",
+                email: "spongeBob@spongeBob.com",
+                fone: "1234566789",
+                rating: " ",
+                reviews: "I love spongebob and your work is great",
+                hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
+            `,
+            },
+            {
+                name: "SpongeBob SquarePants",
+                img: "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg",
+                email: "spongeBob@spongeBob.com",
+                fone: "1234566789",
+                rating: " ",
+                reviews: "I love spongebob and your work is great",
+                hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
+            `,
+            },
             { name: "Silard" },
             { name: "Marina" },
             { name: "Silard" }
