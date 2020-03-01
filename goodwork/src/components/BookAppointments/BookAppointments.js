@@ -7,6 +7,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
+import CardAppointment from '../BookAppointments/CardAppointmen.js'
 
 
 export default function ResponsiveDialog() {
@@ -36,9 +37,8 @@ export default function ResponsiveDialog() {
                 <DialogTitle id="responsive-dialog-title">{"Use Google's location service?"}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        Let Google help apps determine location. This means sending anonymous location data to
-                        Google, even when no apps are running.
-          </DialogContentText>
+
+                    </DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button autoFocus onClick={handleClose} color="primary">
