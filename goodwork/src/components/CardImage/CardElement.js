@@ -1,4 +1,3 @@
-
 import React from "react"
 import clsx from 'clsx';
 import Card from '@material-ui/core/Card';
@@ -19,6 +18,7 @@ import TextsmsIcon from '@material-ui/icons/Textsms';
 import { makeStyles } from '@material-ui/core/styles';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import Book from "../BookAppointments/BookAppointments.js"
+import EuroIcon from '@material-ui/icons/Euro';
 
 
 const useStyles = makeStyles(theme => ({
@@ -94,8 +94,9 @@ export default ({ profi }) => {
                 <TextsmsIcon />
             </IconButton>
             {isComment ? <input type="text" onChange={handleChange} /> : null}
-
-            <Book marginLeft="" />
+            <EuroIcon />
+            {profi.price}/hr
+            <Book margin-left={80} />
             <IconButton
                 className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,

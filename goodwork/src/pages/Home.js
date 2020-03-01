@@ -17,6 +17,7 @@ function Home() {
                 img: "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg",
                 email: "spongeBob@spongeBob.com",
                 fone: "1234566789",
+                price: 15.25,
                 rating: " ",
                 reviews: "I love spongebob and your work is great",
                 hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
