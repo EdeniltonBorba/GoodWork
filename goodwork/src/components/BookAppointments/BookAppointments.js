@@ -37,7 +37,7 @@ export default function ResponsiveDialog() {
                 <DialogTitle id="responsive-dialog-title">{"Use Google's location service?"}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-
+                        <CardAppointment />
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
