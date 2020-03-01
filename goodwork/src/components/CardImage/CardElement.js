@@ -94,6 +94,8 @@ export default ({ profi }) => {
                 <TextsmsIcon />
             </IconButton>
             {isComment ? <input type="text" onChange={handleChange} /> : null}
+
+            <Book marginLeft="" />
             <IconButton
                 className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -103,10 +105,7 @@ export default ({ profi }) => {
                 aria-label="show more"
             >
                 <ExpandMoreIcon />
-            </IconButton>
 
-            <IconButton>
-                <Book />
             </IconButton>
 
         </CardActions>
