@@ -3,7 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
     submit: {
-        color: "#3f51b5"
+        color: "white",
+        backgroundColor: "#3f51b5",
+        margin: "5px 0 5px 0 ",
     },
     media: {
         height: 0,
@@ -12,6 +14,11 @@ const useStyles = makeStyles(theme => ({
 
 
 }));
+
+const getPrice = {
+    display: "grid",
+};
+
 
 export function CardAppointmen() {
     const classes = useStyles();
@@ -155,7 +162,7 @@ export function CardAppointmen() {
                                 </input>
                                 </div>
                             </div>
-                            <div className="cell small-12 quote-form__button"><button className="button radius mixpanel" type="submit"
+                            <div className="cell small-12 quote-form__button" style={getPrice}><button className={classes.submit} type="submit"
                                 data-mixpanel-event="quote_request_submitted" data-mixpanel-trigger="click"
                                 data-mixpanel-event-context="booking_funnel"
                                 data-mixpanel-service-name="other_handyman_service" data-mixpanel-zipcode="">Get a
@@ -167,8 +174,8 @@ export function CardAppointmen() {
 
                 <p className="grid-container quote-form-description">By signing and clicking Get a Price, you affirm you have read
             and agree to the <a href="#" target="_blank">GoodWork Terms</a>, and you agree and authorize GoodWork and its
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        affiliates, and their networks of service professionals, to deliver marketing calls or texts using automated
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        technology to the number you provided above regarding your project and other home services offers. Consent
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        affiliates, and their networks of service professionals, to deliver marketing calls or texts using automated
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        technology to the number you provided above regarding your project and other home services offers. Consent
             is not a condition of purchase.</p>
 
 
