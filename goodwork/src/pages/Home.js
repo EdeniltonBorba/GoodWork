@@ -73,7 +73,7 @@ function Home() {
         profis = [
             {
                 name: "Steve Jobs",
-                img: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_2010-CROP2.jpg",
+                img: "https://i.pinimg.com/564x/d3/0f/da/d30fdaf0bb8975d5733fbcee1743092d.jpg",
                 email: "stevejobs@stevejobs.com",
                 fone: "1234566789",
                 price: 18.35,
@@ -84,9 +84,10 @@ function Home() {
             },
             {
                 name: "Bill Gates",
-                img: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Dts_news_bill_gates_wikipedia.JPG",
+                img: "https://i.pinimg.com/564x/51/ed/43/51ed43828e1d5d68d83748e65441674b.jpg",
                 email: "spongeBob@spongeBob.com",
                 fone: "1234566789",
+                price: 20.35,
                 rating: " ",
                 reviews: "I love spongebob and your work is great",
                 hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
@@ -94,9 +95,10 @@ function Home() {
             },
             {
                 name: "SpongeBob SquarePants",
-                img: "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg",
+                img: "https://tbnts.com/wp-content/uploads/2014/11/Blurb-Handy-Man.jpg",
                 email: "spongeBob@spongeBob.com",
                 fone: "1234566789",
+                price: 19.45,
                 rating: " ",
                 reviews: "I love spongebob and your work is great",
                 hireMe: `I'm willing to apply my acquired experience in your home, office or any other space that needs to be cleaned. I'm proactive, punctual and very friendly person! Minimin of 2 hours please!
