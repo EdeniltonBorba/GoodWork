@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
             marginTop: theme.spacing(2),
             height: theme.spacing('auto'),
             alignItems: 'center',
-            width: theme.spacing(25),
+            width: theme.spacing(34),
 
         },
     },

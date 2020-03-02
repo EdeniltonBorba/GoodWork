@@ -43,6 +43,11 @@ const useStyles = makeStyles(theme => ({
     avatar: {
         backgroundColor: red[500],
     },
+    cardPrice: {
+        fontSize: "18",
+        marginLeft: 40,
+
+    },
 }));
 
 export default ({ profi }) => {
@@ -94,9 +99,13 @@ export default ({ profi }) => {
                 <TextsmsIcon />
             </IconButton>
             {isComment ? <input type="text" onChange={handleChange} /> : null}
-            <EuroIcon />
-            {profi.price}/hr
-            <Book margin-left={80} />
+            <Typography className={classes.cardPrice}>
+                <EuroIcon />
+                {profi.price}/hr
+            </Typography>
+
+
+            <Book />
             <IconButton
                 className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,

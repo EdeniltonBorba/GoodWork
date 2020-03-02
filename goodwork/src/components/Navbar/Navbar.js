@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
         marginLeft: 0,
         width: '100%',
         [theme.breakpoints.up('sm')]: {
-            marginLeft: theme.spacing(17),
+            marginLeft: theme.spacing(12),
             width: 'auto',
         },
     },
@@ -63,7 +63,7 @@ const useStyles = makeStyles(theme => ({
         transition: theme.transitions.create('width'),
         width: '100%',
         [theme.breakpoints.up('md')]: {
-            width: 500,
+            width: 463,
         },
     },
     sectionDesktop: {
