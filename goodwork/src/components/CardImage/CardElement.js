@@ -45,7 +45,8 @@ const useStyles = makeStyles(theme => ({
     },
     cardPrice: {
         fontSize: "18",
-        marginLeft: 40,
+        marginLeft: 12,
+        marginRight: 12,
 
     },
 }));
@@ -100,8 +101,8 @@ export default ({ profi }) => {
             </IconButton>
             {isComment ? <input type="text" onChange={handleChange} /> : null}
             <Typography className={classes.cardPrice}>
-                <EuroIcon />
-                {profi.price}/hr
+                <h4><EuroIcon />{profi.price}/hr</h4>
+
             </Typography>
 
 
