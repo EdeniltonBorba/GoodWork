@@ -40,14 +40,7 @@ export default function ResponsiveDialog() {
                         <CardAppointment />
                     </DialogContentText>
                 </DialogContent>
-                <DialogActions>
-                    <Button autoFocus onClick={handleClose} color="primary">
-                        Disagree
-          </Button>
-                    <Button onClick={handleClose} color="primary" autoFocus>
-                        Agree
-          </Button>
-                </DialogActions>
+
             </Dialog>
         </div>
     );
