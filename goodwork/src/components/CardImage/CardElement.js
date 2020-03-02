@@ -69,9 +69,11 @@ export default ({ profi }) => {
     return <Card className={classes.root} key={profi.name}>
         <CardHeader
             avatar={
-                <Avatar aria-label="recipe" className={classes.avatar}>
+                <Avatar aria-label="recipe" className={classes.avatar} src={profi.img}>
 
                 </Avatar>
+
+
             }
             action={
                 <IconButton aria-label="settings">
