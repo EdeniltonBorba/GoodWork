@@ -30,8 +30,7 @@ export function CardAppointmen() {
                     <div className="grid-x grid-padding-x">
                         <h3>Handyman Service</h3>
                         <div className="cell">
-                            <div className="cell small-12"><input type="text" className="hidden">
-                            </input>
+                            <div className="cell small-12" style={getPrice}>
                                 <input type="text"
                                     className="placeholder" placeholder="ZIP Code" value="" name="zip"
                                     autocomplete="postal-code">
@@ -41,7 +40,7 @@ export function CardAppointmen() {
                             <h4>Tell us about the job</h4>
                             <div>
                                 <div className="quote-form__questions"></div>
-                                <div className="cell small-12"><textarea className="placeholder" cols="40" rows="5"
+                                <div className="cell small-12" style={getPrice}><textarea className="placeholder" cols="40" rows="5"
                                     placeholder="Please describe the job in detail. (required)"></textarea></div>
                                 <div>
                                     <h5>How many hours would you like to book?</h5>
@@ -68,7 +67,7 @@ export function CardAppointmen() {
                                 <h5>When would you like us to come?</h5>
                                 <div className="cell small-12">
                                     <div>
-                                        <div className="show-for-medium"><input type="text" required="" className="start-date "></input></div>
+                                        <div className="show-for-medium" style={getPrice} ><input type="text" required="" className="start-date "></input></div>
                                         <div className="caret-small-only show-for-small-only"><select name="dateStart"
                                             className="form-input show-for-small-only ">
                                             <option value="03/01/2020">Sun Mar 01</option>
@@ -150,12 +149,12 @@ export function CardAppointmen() {
                                     <option value="20:30">8:30 PM</option>
                                     <option value="21:00">9:00 PM</option>
                                 </select></div>
-                                <div className="cell small-12"><input type="email" className="placeholder" placeholder="Email Address"
+                                <div className="cell small-12" style={getPrice}><input type="email" className="placeholder" placeholder="Email Address"
                                     pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$" value="" name="email"
                                     autocomplete="email">
                                 </input>
                                 </div>
-                                <div className="cell small-12"><input type="tel" className="placeholder"
+                                <div className="cell small-12" style={getPrice}><input type="tel" className="placeholder"
                                     placeholder="Phone Number (Optional)"
                                     pattern="^(1?)(-| ?)(\()?([0-9]{3})(\)|-| |\)-|\) )?([0-9]{3})(-| )?([0-9]{4}|[0-9]{4})$"
                                     name="phone" autocomplete="phone">
@@ -174,8 +173,8 @@ export function CardAppointmen() {
 
                 <p className="grid-container quote-form-description">By signing and clicking Get a Price, you affirm you have read
             and agree to the <a href="#" target="_blank">GoodWork Terms</a>, and you agree and authorize GoodWork and its
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        affiliates, and their networks of service professionals, to deliver marketing calls or texts using automated
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        technology to the number you provided above regarding your project and other home services offers. Consent
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                affiliates, and their networks of service professionals, to deliver marketing calls or texts using automated
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                technology to the number you provided above regarding your project and other home services offers. Consent
             is not a condition of purchase.</p>
 
 
