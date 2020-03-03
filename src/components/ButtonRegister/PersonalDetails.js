@@ -1,4 +1,7 @@
 import React from "react";
+import WorkExperience from "./WorkExperience.js";
+import OtherInfo from "./OtherInfo.js";
+
 
 
 function PersonalDetails() {
@@ -503,10 +506,9 @@ function PersonalDetails() {
                     </div>
                 </div>
             </div>
-
+            <WorkExperience />
+            <OtherInfo />
         </>
-
-
 
     )
 }

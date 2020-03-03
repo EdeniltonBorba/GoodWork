@@ -1,3 +1,5 @@
+import React from "react"
+
 export default () => <div className="exp-content-container">
     <div className="exp-content-block">
         <div className="payment-section">
