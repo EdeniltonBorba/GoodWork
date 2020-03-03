@@ -5,7 +5,7 @@ const CardPhoto = {
     marginLeft: 15,
     position: "relative",
     borderStyle: "solid",
-    borderColor: "#3f51b5",
+    borderColor: "aliceblue",
 
 };
 
