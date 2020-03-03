@@ -20,7 +20,7 @@ export default function ImageAvatars() {
 
     return (
         <div className={classes.root}>
-            <Avatar alt="Patrick" src="http://1.bp.blogspot.com/-JaPAPZYMIj0/USkYjJMJzPI/AAAAAAAACZ0/qfLRr3JQAgc/s1600/289578_multik_gubka_bob_1920x1080_(www.GdeFon.ru).jpg" />
+            <Avatar alt="Patrick" src="https://media-exp1.licdn.com/dms/image/C5603AQEUdIdRc930yA/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=bDmNrZkNFhaRZTh4U6rQ4w0TzCMbrSYWvJbH9eLwvNg" />
         </div>
     );
 }
