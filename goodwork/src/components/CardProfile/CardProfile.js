@@ -1,7 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import AvatarProfile from "../CardProfile/AvatarProfile.js";
+import UserProfile from "../CardProfile/UserProfile.js";
+
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -21,7 +22,7 @@ export default function SimplePaper({ profiName }) {
     return (
         <div className={classes.root}>
             <Paper elevation={3}>
-                <AvatarProfile profiName={profiName} />
+                <UserProfile />
             </Paper>
         </div>
     );
