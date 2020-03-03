@@ -4,6 +4,9 @@ const CardPhoto = {
     marginTop: -100,
     marginLeft: 15,
     position: "relative",
+    borderStyle: "solid",
+    borderColor: "#3f51b5",
+
 };
 
 export function UserProfile() {
@@ -22,10 +25,10 @@ export function UserProfile() {
 
             <div className="ph5 pb5">
                 <div className="display-flex">
-                    <div className="pv-top-card--photo" style={CardPhoto} >
+                    <div className="pv-top-card--photo">
                         <div className="pv-top-card__photo-wrapper ml0">
                             <div className="pv-top-card__edit-photo profile-photo-edit ember-view">
-                                <img width="128" src="https://media-exp1.licdn.com/dms/image/C5603AQEUdIdRc930yA/profile-displayphoto-shrink_200_200/0?e=1588809600&amp;v=beta&amp;t=bDmNrZkNFhaRZTh4U6rQ4w0TzCMbrSYWvJbH9eLwvNg" height="128" alt="Edit photo" id="ember3064" className="profile-photo-edit__preview ember-view">
+                                <img width="128" style={CardPhoto} src="https://media-exp1.licdn.com/dms/image/C5603AQEUdIdRc930yA/profile-displayphoto-shrink_200_200/0?e=1588809600&amp;v=beta&amp;t=bDmNrZkNFhaRZTh4U6rQ4w0TzCMbrSYWvJbH9eLwvNg" height="128" alt="Edit photo" id="ember3064" className="profile-photo-edit__preview ember-view">
                                 </img>
 
 
