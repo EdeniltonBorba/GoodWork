@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
     },
     cardPrice: {
         fontSize: "18",
-        marginLeft: 12,
+        marginLeft: 8,
         marginRight: 12,
 
     },
