@@ -4,6 +4,7 @@ import Home from "./pages/Home.js";
 import SignUp from "./pages/SignUp.js";
 import Profile from './pages/Profile.js';
 import SignIn from './pages/SignIn.js';
+import Thanks from './pages/Thanks.js';
 
 
 
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/SignUp" component={SignUp} />
           <Route exact path="/Home" component={Home} />
           <Route exact path="/Profile" component={Profile} />
+          <Route exact path="/Thanks" component={Thanks} />
         </Switch>
       </div>
     </Router>
