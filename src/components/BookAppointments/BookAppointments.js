@@ -8,6 +8,10 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import CardAppointment from '../BookAppointments/CardAppointmen.js'
 
+const ButtonApoi = {
+    backgroundColor: "#3f51b5",
+    color: "white",
+}
 
 export default function ResponsiveDialog() {
     const [open, setOpen] = React.useState(false);
