@@ -6,5 +6,5 @@ import ButtonRegister from '../ButtonRegister/ButtonRegister.js';
 export default () => <div className="familyRoot">
     <img className="familyImage" src={Background} />
     <div className="familyText"> Thanks!</div>
-    <ButtonRegister />
+    <ButtonRegister className="buttonRegister" />
 </div>

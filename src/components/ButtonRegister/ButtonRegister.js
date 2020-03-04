@@ -11,7 +11,7 @@ import color from '@material-ui/core/colors/amber';
 const ButtonStyle = {
     backgroundColor: "#3f51b5",
     color: "white",
-    marginTop: 350,
+    marginTop: -200,
     marginLeft: 500,
 
 };
