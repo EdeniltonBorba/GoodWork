@@ -1,0 +1,21 @@
+.familyImage {
+    max-width: 100%;
+}
+
+
+.familyRoot {
+    padding: 1rem 3rem;
+    position: absolute;
+}
+
+.familyText {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 116px;
+    border-color: blueviolet;
+    border: 4px;
+    color: purple;
+    font-family: sans-serif;
+    text-shadow: 0 0 17px #fff;
+}
