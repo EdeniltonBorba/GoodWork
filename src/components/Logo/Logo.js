@@ -27,4 +27,9 @@ export function LogoSign() {
 
 }
 
+export function LogoOpening() {
+    return <div style={logoHomeStyle}>GoodWork</div>;
+
+}
+
 
