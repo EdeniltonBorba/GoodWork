@@ -90,7 +90,7 @@ function Profile() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col size="md-6">
+                    <Col size="md-12">
                         <CardRegister />
                     </Col>
                 </Row>
