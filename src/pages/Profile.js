@@ -88,7 +88,13 @@ function Profile() {
 
                     </Col>
                 </Row>
+                <Row>
+                    <Col size="md-6">
+                        <CardProfile />
+                    </Col>
+                </Row>
             </Container>
+
 
         </div>
 
