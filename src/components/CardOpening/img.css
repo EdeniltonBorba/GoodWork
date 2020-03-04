@@ -24,23 +24,26 @@
 
 .familyTextSign {
     position: absolute;
-    top: 12%;
-    left: 40%;
+    top: 14%;
+    left: 42%;
     font-size: 20px;
     border-color: blueviolet;
     border: 4px;
     font-family: sans-serif;
     text-shadow: 0 0 17px #fff;
     background: whitesmoke;
-    color: brown;
-    padding: 0 15px 0 15px;
+    color: darkgreen;
+    padding: 10px 15px 10px 15px;
     width: 715px;
+    text-align: center;
 }
 
-.buttonSignIn {
-    font-size: 20px;
-}
-
-.buttonSignUp {
-    font-size: 20px;
+.buttonSign {
+    font-size: 15px;
+    text-align: center;
+    background-color: cadetblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: right;
 }
