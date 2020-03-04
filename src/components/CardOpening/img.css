@@ -24,7 +24,7 @@
 
 .familyTextSign {
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 40%;
     font-size: 20px;
     border-color: blueviolet;
@@ -34,6 +34,7 @@
     background: whitesmoke;
     color: brown;
     padding: 0 15px 0 15px;
+    width: 715px;
 }
 
 .buttonSignIn {
