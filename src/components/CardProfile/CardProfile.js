@@ -25,7 +25,6 @@ export default function SimplePaper({ profiName }) {
             <Paper elevation={3}>
                 <UserProfile />
 
-                <ButtonRegister />
             </Paper>
         </div>
     );
