@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import UserProfile from "../CardProfile/UserProfile.js";
 import ButtonRegister from '../ButtonRegister/ButtonRegister.js';
 
+
 const useStyles = makeStyles(theme => ({
     root: {
         display: 'flex',
@@ -23,7 +24,7 @@ export default function SimplePaper({ profiName }) {
     return (
         <div className={classes.root}>
             <Paper elevation={3}>
-                <UserProfile />
+
 
                 <ButtonRegister />
             </Paper>

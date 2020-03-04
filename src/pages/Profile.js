@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { Container, Row, Col } from "../components/Grid/index.js";
 import CardProfile from "../components/CardProfile/CardProfile.js";
+import CardRegister from "../components/ButtonRegister/CardRegister.js"
 
 
 function Profile() {
@@ -90,7 +91,7 @@ function Profile() {
                 </Row>
                 <Row>
                     <Col size="md-6">
-                        <CardProfile />
+                        <CardRegister />
                     </Col>
                 </Row>
             </Container>
