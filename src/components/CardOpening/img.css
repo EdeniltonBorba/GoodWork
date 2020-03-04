@@ -19,6 +19,21 @@
     text-shadow: 0 0 17px #fff;
     background: whitesmoke;
     color: brown;
+    padding: 0 15px 0 15px;
+}
+
+.familyTextSign {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 20px;
+    border-color: blueviolet;
+    border: 4px;
+    font-family: sans-serif;
+    text-shadow: 0 0 17px #fff;
+    background: whitesmoke;
+    color: brown;
+    padding: 0 15px 0 15px;
 }
 
 .buttonSignIn {
