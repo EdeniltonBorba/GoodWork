@@ -4,13 +4,13 @@
 
 
 .familyRoot {
-    padding: 1rem 3rem;
+    padding: 0.2rem;
     position: absolute;
 }
 
 .familyText {
     position: absolute;
-    top: 40%;
+    top: 5%;
     left: 10%;
     font-size: 116px;
     border-color: blueviolet;
@@ -18,4 +18,12 @@
     color: purple;
     font-family: sans-serif;
     text-shadow: 0 0 17px #fff;
+}
+
+.buttonSignIn {
+    font-size: 20px;
+}
+
+.buttonSignUp {
+    font-size: 20px;
 }
