@@ -1,0 +1,23 @@
+.ButtonOut {
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+    .ButtonOut {
+        background-color: white; 
+        color: #3f51b5; 
+        border: 2px solid #3f51b5;
+      }
+      
+      .ButtonOut:hover {
+        background-color: #3f51b5;
+        color: white;
+      }
+   

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import './CardProfile.css';
 
 const CardPhoto = {
     marginTop: -100,
@@ -50,9 +51,9 @@ export function UserProfile() {
                         <i ClassName="ss-envelope"></i>
                         <span>edeniltonborba.adm@gmail.com</span>
                     </li>
-                    <div ClassName="intended_use_info"></div>
+
                     <li>
-                        <Link to="/" ClassName="btn btn-small"><span>Log Out</span></Link>
+                        <Link to="/"><button className="ButtonOut">Sign Out</button></Link>
                     </li>
                 </ul>
             </div>
