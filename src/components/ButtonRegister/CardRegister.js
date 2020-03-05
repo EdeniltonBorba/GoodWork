@@ -14,7 +14,7 @@ export default () => <div className="familyRoot">
     <div className="familyTexThree">
         <h3>Be someone's hero today. Earn money by helping people with their everyday to-dos.</h3>
     </div>
-    <div className="btnRegister">
+    <div className="btn">
         <ButtonRegister />
     </div>
 </div >
