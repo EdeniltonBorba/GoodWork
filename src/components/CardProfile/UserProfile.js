@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './CardProfile.css';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 const CardPhoto = {
     marginTop: -100,
@@ -44,12 +45,12 @@ export function UserProfile() {
             <div ClassName="tr-col-12 tr-col-lg-8 u-align--center u-align--lg-left">
                 <ul ClassName="account--list">
                     <li>
-                        <i ClassName="ss-user"></i>
-                        <span>Edenilton Borba</span>
+
+                        <MailOutlineIcon /><span>Edenilton Borba</span>
                     </li>
                     <li>
-                        <i ClassName="ss-envelope"></i>
-                        <span>edeniltonborba.adm@gmail.com</span>
+
+                        <MailOutlineIcon /><span>edeniltonborba.adm@gmail.com</span>
                     </li>
 
                     <li>
