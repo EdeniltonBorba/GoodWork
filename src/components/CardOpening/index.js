@@ -3,6 +3,7 @@ import Background from './family.jpg';
 import "./img.css"
 import { Link } from "react-router-dom";
 
+
 export default () => <div className="familyRoot">
     <img className="familyImage" src={Background} />
     <div className="familyText">Help around the home, at your fingertips</div>

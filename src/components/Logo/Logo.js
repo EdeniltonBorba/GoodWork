@@ -9,7 +9,7 @@ const logoHomeStyle = {
 
 const logoSignStyle = {
     color: 'white',
-    backgroundColor: 'tomato',
+    backgroundColor: 'brown',
     textAlign: "center",
 };
 

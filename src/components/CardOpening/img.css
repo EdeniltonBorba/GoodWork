@@ -39,6 +39,29 @@
 }
 
 .buttonSign {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+    .buttonSign {
+        background-color: white; 
+        color: darkgreen; 
+        border: 2px solid #4CAF50;
+      }
+      
+      .buttonSign:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+    /*
     font-size: 15px;
     text-align: center;
     background-color: cadetblue;
@@ -46,4 +69,5 @@
     border-radius: 10px;
     font-family: sans-serif;
     text-align: right;
-}
+    */
+
