@@ -8,17 +8,50 @@
     position: absolute;
 }
 
-.familyText {
+.familyTextOne {
     position: absolute;
     top: 5%;
     left: 10%;
-    font-size: 116px;
+    font-size: 40px;
     border-color: blueviolet;
     border: 4px;
-    color: purple;
     font-family: sans-serif;
     text-shadow: 0 0 17px #fff;
+    background: whitesmoke;
+    color: brown;
+    padding: 0 15px 0 15px;
 }
+
+.familyTextTwo {
+    position: absolute;
+    top: 11%;
+    left: 10%;
+    font-size: 40px;
+    border-color: blueviolet;
+    border: 4px;
+    font-family: sans-serif;
+    text-shadow: 0 0 17px #fff;
+    background: whitesmoke;
+    color: brown;
+    padding: 0 15px 0 15px;
+}
+
+.familyTexThree {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    font-size: 40px;
+    border-color: blueviolet;
+    border: 4px;
+    font-family: sans-serif;
+    text-shadow: 0 0 17px #fff;
+    background: whitesmoke;
+    color: brown;
+    padding: 0 15px 0 15px;
+   
+}
+
+
 
 .buttonSignIn {
     font-size: 20px;
@@ -26,4 +59,8 @@
 
 .buttonSignUp {
     font-size: 20px;
+}
+
+.btnRegister {
+    top: 30%;
 }

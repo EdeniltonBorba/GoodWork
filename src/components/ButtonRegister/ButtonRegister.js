@@ -7,13 +7,15 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import PersonalDetails from './PersonalDetails';
 import color from '@material-ui/core/colors/amber';
+import "./img.css"
 
 const ButtonStyle = {
     backgroundColor: "#3f51b5",
     color: "white",
-    marginTop: -200,
+    marginTop: -900,
     marginLeft: 500,
-
+    padding: 20,
+    fontSize: 18,
 };
 
 export default function ResponsiveDialog() {
@@ -30,7 +32,7 @@ export default function ResponsiveDialog() {
     };
 
     return (
-        <div>
+        <div className="ButtonStyle">
             <Button variant="outlined" style={ButtonStyle} onClick={handleClickOpen}>
                 Start Registration
       </Button>
