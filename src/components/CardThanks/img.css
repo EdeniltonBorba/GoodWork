@@ -11,11 +11,13 @@
 .familyText {
     position: absolute;
     top: 40%;
-    left: 10%;
-    font-size: 116px;
+    left: 30px;
+    font-size: 80px;
     border-color: blueviolet;
     border: 4px;
     color: purple;
     font-family: sans-serif;
     text-shadow: 0 0 17px #fff;
+    padding: 0 15px 0 15px;
+    width: 800px;
 }

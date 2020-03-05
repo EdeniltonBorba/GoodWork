@@ -1,64 +1,76 @@
-.familyImage {
-    max-width: 100%;
+.homeImage {
+    background-size: cover;
+    background-position: top;
+    width: 50%;
+    height: 600px;
+    background-image: url("./family.jpg");
 }
 
 
-.familyRoot {
-    padding: 0.2rem;
-    position: absolute;
+.homeText {
+    color: #3f51b5;
+    font-size: 66px;
+    font-weight: 200;
 }
 
-.familyText {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    font-size: 40px;
-    border-color: blueviolet;
-    border: 4px;
-    font-family: sans-serif;
-    text-shadow: 0 0 17px #fff;
-    background: whitesmoke;
-    color: brown;
-    padding: 0 15px 0 15px;
+
+.homeSubtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25rem;
+    background-color: #3f51b5;
+    padding: 1rem;
+
 }
 
-.familyTextSign {
-    position: absolute;
-    top: 14%;
-    left: 42%;
+.homeRoot {
+    display: flex;
+} 
+
+.homeBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+
+.mainTitle {
+    color: white;
     font-size: 20px;
-    border-color: blueviolet;
-    border: 4px;
-    font-family: sans-serif;
-    text-shadow: 0 0 17px #fff;
-    background: whitesmoke;
-    color: darkgreen;
-    padding: 10px 15px 10px 15px;
-    width: 715px;
     text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.customHelp {
+    padding: 0 1rem;
+}
+
+.homeCtas {
 }
 
 .buttonSign {
-    background-color: cadetblue;
-    border: none;
+    background-color: #3f51b5;
     color: white;
-    padding: 5px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 10px;
+    border-color: 1px solid white;
+    border-radius: 6px;
+    padding: 0.25rem 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
-    .buttonSign {
-        background-color: white; 
-        color: darkgreen; 
-        border: 2px solid #4CAF50;
-      }
-      
-      .buttonSign:hover {
-        background-color: #4CAF50;
-        color: white;
-      }
-   
+
+.buttonSign:hover {
+    background-color: white;
+    color: #3f51b5;
+    border-color: 1px solid #3f51b5;
+}
+
+.cutomHelp {
+    background-color: #3f51b5;
+    color: white;
+}

@@ -7,6 +7,11 @@ import SignIn from './pages/SignIn.js';
 import Thanks from './pages/Thanks.js';
 import Opening from './pages/Opening.js';
 
+// Load Open Sans typeface
+import 'typeface-open-sans'
+import 'bulma/css/bulma.css'
+import "./global.css"
+
 
 
 function App() {

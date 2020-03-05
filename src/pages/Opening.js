@@ -13,12 +13,7 @@ function Opening() {
     return (
         <div>
             <NavOpening />
-            <Container fluid>
-                <CardOpening />
-            </Container>
-
-
-
+            <CardOpening />
         </div>
     )
 }
