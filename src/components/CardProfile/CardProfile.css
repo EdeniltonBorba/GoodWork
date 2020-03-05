@@ -9,15 +9,21 @@
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 10px;
+    margin-left: 500px;
 }
-    .ButtonOut {
-        background-color: white; 
-        color: #3f51b5; 
-        border: 2px solid #3f51b5;
-      }
+.ButtonOut {
+    background-color: white; 
+    color: #3f51b5; 
+    border: 2px solid #3f51b5;
+}
       
-      .ButtonOut:hover {
-        background-color: #3f51b5;
-        color: white;
-      }
+.ButtonOut:hover {
+    background-color: #3f51b5;
+    color: white;
+}
    
+.DetailsProfile {
+    font-size: 30px;
+    color: dimgray;
+    margin: 80px 40px 120px 40px;
+}
