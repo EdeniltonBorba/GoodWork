@@ -1,7 +1,13 @@
 .familyImage {
     max-width: 100%;
 }
-
+.RegisterImage {
+    background-size: cover;
+    background-position: top;
+    width: 50%;
+    height: 600px;
+    background-image: url("./register.jpg");
+}
 
 .familyRoot {
     padding: 0.2rem;
