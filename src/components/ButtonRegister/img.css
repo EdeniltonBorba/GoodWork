@@ -7,6 +7,7 @@
     width: 50%;
     height: 600px;
     background-image: url("./register.jpg");
+    margin-top: 30px;
 }
 
 .familyRoot {
@@ -93,4 +94,35 @@
     position: absolute;
     top: 20%;
     left: 73%;
+}
+
+.TextOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25rem;
+    background-color: #3f51b5;
+    padding: 1rem;
+}
+
+.TextTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25rem;
+    background-color: #3f51b5;
+    padding: 1rem;
+}
+
+.Textthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25rem;
+    background-color: #3f51b5;
+    padding: 1rem;
+}
+.buttonRegister {
+    margin-left: 100px;
+    margin-top: 20px;
 }

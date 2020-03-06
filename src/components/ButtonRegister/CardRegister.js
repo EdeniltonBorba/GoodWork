@@ -10,16 +10,18 @@ export default () => <div>
         <div className="homeBox">
             <div className="mainTitle">
                 <div className="TextOne">
-                    Start Tasking.
-            </div>
+                    <h1> Start Tasking.</h1>
+                </div>
                 <div className="TextTwo">
-
+                    <h2> Earn money your way.</h2>
                 </div>
                 <div className="Textthree">
-
+                    <h3> Be someone's hero today. Earn money by helping people with their everyday to-dos.</h3>
                 </div>
             </div>
         </div>
-
+        <div>
+            <ButtonRegister />
+        </div>
     </div>
 </div>
