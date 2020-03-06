@@ -20,8 +20,8 @@ export default () => <div>
                 </div>
             </div>
         </div>
-        <div>
-            <ButtonRegister />
-        </div>
+
+        <ButtonRegister />
+
     </div>
 </div>
