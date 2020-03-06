@@ -13,10 +13,10 @@ export default () => <div>
                     <h1> <span className="textSubOne">Start</span> Tasking.</h1>
                 </div>
                 <div className="TextTwo">
-                    <h2> Earn money your way.</h2>
+                    <h2> Earn <span className="TextSubTwo">money</span>your way.</h2>
                 </div>
                 <div className="Textthree">
-                    <h3> Be someone's hero today. Earn money by helping people with their everyday to-dos.</h3>
+                    <h3> Be someone's hero today. Earn money by helping <span>people</span> with their everyday to-dos.</h3>
                 </div>
             </div>
         </div>
