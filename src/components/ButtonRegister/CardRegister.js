@@ -10,7 +10,7 @@ export default () => <div>
         <div className="homeBox">
             <div className="mainTitle">
                 <div className="TextOne">
-                    <h1> Start Tasking.</h1>
+                    <h1> <span className="textSubOne">Start</span> Tasking.</h1>
                 </div>
                 <div className="TextTwo">
                     <h2> Earn money your way.</h2>

@@ -71,7 +71,7 @@
     cursor: pointer;
     border-radius: 10px;
     margin-top: 550px;
-    margin-left: 695px;
+    margin-left: 800px;
 }
 .ButtonStyle {
     background-color: white; 
@@ -103,8 +103,8 @@
     flex-direction: column;
     align-items: center;
     padding: 0.25rem;
-    background-color: #3f51b5;
     padding: 1rem;
+    color: brown;
 }
 
 .TextTwo {
@@ -112,7 +112,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0.25rem;
-    background-color: #3f51b5;
+    color: brown;
     padding: 1rem;
 }
 
@@ -121,8 +121,10 @@
     flex-direction: column;
     align-items: center;
     padding: 0.25rem;
-    background-color: #3f51b5;
+    color: brown;
     padding: 1rem;
 }
-.buttonRegister {
+
+.textSubOne {
+    background-color: brown;
 }
