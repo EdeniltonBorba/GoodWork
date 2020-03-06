@@ -15,10 +15,9 @@ const useStyles = makeStyles(theme => ({
         color: 'white',
         backgroundColor: 'brown',
         textAlign: "center",
-        fontSize: '100%',
         fontWeight: "normal",
         padding: '5px',
-        fontSize: '100px',
+        fontSize: 40,
     },
 }));
 
