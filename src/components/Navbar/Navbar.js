@@ -120,9 +120,6 @@ export default function PrimarySearchAppBar() {
 
         >
 
-            <Link to="/Profile" style={{ outlineColor: "none" }}>
-                <MenuItem >Profile</MenuItem>
-            </Link>
 
 
         </Menu>
@@ -155,17 +152,6 @@ export default function PrimarySearchAppBar() {
                     </Badge>
                 </IconButton>
                 <p>Notifications</p>
-            </MenuItem>
-            <MenuItem onClick={handleProfileMenuOpen}>
-                <IconButton
-                    aria-label="account of current user"
-                    aria-controls="primary-search-account-menu"
-                    aria-haspopup="true"
-                    color="inherit"
-                >
-                    <AvatarNavbar />
-                </IconButton>
-                <p>Profile</p>
             </MenuItem>
         </Menu>
     );
@@ -204,16 +190,22 @@ export default function PrimarySearchAppBar() {
                                 <NotificationsIcon />
                             </Badge>
                         </IconButton>
-                        <IconButton
-                            edge="end"
-                            aria-label="account of current user"
-                            aria-controls={menuId}
-                            aria-haspopup="true"
-                            onClick={handleProfileMenuOpen}
-                            color="inherit"
-                        >
-                            <AvatarNavbar />
+
+                        <IconButton>
+
+                            <Link to="/Profile">
+
+                                <AvatarNavbar />
+
+                            </Link>
+
+
+
+
+
+
                         </IconButton>
+
                     </div>
                     <div className={classes.sectionMobile}>
                         <IconButton
