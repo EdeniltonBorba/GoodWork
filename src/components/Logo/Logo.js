@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
 export function LogoHome() {
     const classes = useStyles();
     return (<Link to="/Home">
-        <div className="logoHomeStyle">GoodWork</div>
+        <div className={classes.logoHomeStyle}>GoodWork</div>
     </Link>
     );
 };
