@@ -1,0 +1,16 @@
+
+.logoHomeStyle {
+    font-family: 'Prompt';
+    font-size: 40;
+    color: "white";
+};
+
+.logoSignStyle {
+    color: 'white';
+    background-color: 'brown';
+    text-align: "center";
+    font-size: 100%;
+    font-weight: "normal";
+    padding: 5px;
+    font-size: 100px;
+};

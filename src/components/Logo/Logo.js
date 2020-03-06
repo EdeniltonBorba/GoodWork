@@ -1,34 +1,44 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const logoHomeStyle = {
-    fontfamily: 'Prompt',
-    fontSize: 40,
-    color: "white",
-};
-
-const logoSignStyle = {
-    color: 'white',
-    backgroundColor: 'brown',
-    textAlign: "center",
-};
+import { makeStyles } from '@material-ui/core/styles';
 
 
+import "./logo.css";
+
+const useStyles = makeStyles(theme => ({
+    logoHomeStyle: {
+        fontFamily: 'Prompt',
+        fontSize: 40,
+        color: "white"
+    },
+    logoSignStyle: {
+        color: 'white',
+        backgroundColor: 'brown',
+        textAlign: "center",
+        fontSize: '100%',
+        fontWeight: "normal",
+        padding: '5px',
+        fontSize: '100px',
+    },
+}));
 
 export function LogoHome() {
+    const classes = useStyles();
     return (<Link to="/Home">
-        <div style={logoHomeStyle}>GoodWork</div>
+        <div className="logoHomeStyle">GoodWork</div>
     </Link>
     );
 };
 
-export function LogoSign() {
-    return <h1 style={logoSignStyle}>GoodWork</h1>;
+export const LogoSign = () => {
+    const classes = useStyles();
+    return <div className={classes.logoSignStyle}><p>GoodWork</p></div>;
 
 }
 
 export function LogoOpening() {
-    return <div style={logoHomeStyle}>GoodWork</div>;
+    const classes = useStyles();
+    return <div className={classes.logoHomeStyle}>GoodWork</div>;
 
 }
 

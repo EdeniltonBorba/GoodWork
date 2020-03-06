@@ -8,7 +8,7 @@ export default () => <div>
     <div className="homeRoot">
         <div className="homeImage" />
         <div className="homeBox">
-            <div className="homeText"><span class="cutomHelp">Help</span> around the home, at your fingertips</div>
+            <div className="homeText"><span class="customHelp">Help</span> around the home, at your fingertips</div>
         </div>
     </div>
     <div className="homeSubtitle">
