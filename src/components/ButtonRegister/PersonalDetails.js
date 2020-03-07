@@ -1,7 +1,7 @@
 import React from "react";
 import WorkExperience from "./WorkExperience.js";
 import OtherInfo from "./OtherInfo.js";
-
+import Button from "./ButtonAnd.js";
 
 
 function PersonalDetails() {
@@ -508,6 +508,7 @@ function PersonalDetails() {
             </div>
             <WorkExperience />
             <OtherInfo />
+            <Button />
         </>
 
     )

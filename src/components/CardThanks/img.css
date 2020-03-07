@@ -10,14 +10,15 @@
 
 .familyText {
     position: absolute;
-    top: 40%;
-    left: 30px;
-    font-size: 80px;
+    top: 12%;
+    left: 67px;
+    font-size: 60px;
     border-color: blueviolet;
     border: 4px;
-    color: purple;
+    color: azure;
     font-family: sans-serif;
     text-shadow: 0 0 17px #fff;
     padding: 0 15px 0 15px;
-    width: 800px;
+    width: 500px;
 }
+

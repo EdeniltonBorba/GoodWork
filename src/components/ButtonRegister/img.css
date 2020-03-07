@@ -144,3 +144,10 @@
 .subBox {
     width: 500px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 15px;
+}
