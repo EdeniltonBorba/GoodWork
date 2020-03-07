@@ -150,4 +150,7 @@
     background-color: #007bff;
     border-color: #007bff;
     margin-top: 15px;
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 30;
 }
