@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from 'react';
 import Navbar from "../components/Navbar/Navbar";
 import { Container, Row, Col } from "../components/Grid/index.js";
 import CardProfile from "../components/CardProfile/CardProfile.js";
@@ -28,11 +28,6 @@ function Profile() {
 
 
         </div>
-
-
-
-
-
     )
 }
 

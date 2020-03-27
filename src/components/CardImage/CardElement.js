@@ -50,6 +50,9 @@ const useStyles = makeStyles(theme => ({
         marginRight: 12,
 
     },
+    title: {
+        fontSize: 30,
+    },
 }));
 
 export default ({ profi }) => {
@@ -81,6 +84,7 @@ export default ({ profi }) => {
                     <MoreVertIcon />
                 </IconButton>
             }
+
             title={profi.name}
 
         />
