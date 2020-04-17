@@ -8,7 +8,7 @@
 
 
 .homeText {
-    color: #3f51b5;
+    color: #fa8231;
     font-size: 66px;
     font-weight: 200;
 }
@@ -19,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0.25rem;
-    background-color: #3f51b5;
+    background-color: #fa8231;
     padding: 1rem;
 
 }
@@ -47,13 +47,8 @@
 
 }
 
-
-
-.homeCtas {
-}
-
 .buttonSign {
-    background-color: #3f51b5;
+    background-color: #fa8231;
     color: white;
     border-color: 1px solid white;
     border-radius: 6px;
@@ -64,12 +59,12 @@
 
 .buttonSign:hover {
     background-color: white;
-    color: #3f51b5;
-    border-color: 1px solid #3f51b5;
+    color: #fa8231;
+    border-color: 1px solid #fa8231;
 }
 
 .customHelp {
-    background-color: #3f51b5;
+    background-color: #fa8231;
     color: white;
     padding: 0 1.0rem;
 }
