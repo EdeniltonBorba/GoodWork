@@ -45,6 +45,14 @@ const useStyles = makeStyles(theme => ({
     submit: {
         margin: theme.spacing(3, 0, 2),
     },
+
+    slogan: {
+        fontSize: "23px",
+        fontFamily: "Roboto, Helvetica, Arial, sans-serif",
+        fontWeight: "500",
+        lineHeight: "1.6",
+        letterSpacing: "0.0075em"
+    },
 }));
 
 export default function SignIn() {
@@ -63,9 +71,9 @@ export default function SignIn() {
             <CssBaseline />
             <div className={classes.paper}>
                 <LogoSign />
-                <Typography component="h1" variant="h5">
+                <div className={classes.slogan}>
                     Sign in to find the best professionals
-        </Typography>
+                </div>
                 <form className={classes.form} noValidate>
                     <TextField
                         variant="outlined"
