@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
     },
     logoSignStyle: {
         color: 'white',
-        backgroundColor: 'brown',
+        backgroundColor: '#fa8231',
         textAlign: "center",
         fontWeight: "normal",
         padding: '5px',
