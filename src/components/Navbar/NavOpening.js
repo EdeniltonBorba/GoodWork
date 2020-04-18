@@ -34,6 +34,11 @@ const useStyles = makeStyles(theme => ({
             display: 'none',
         },
     },
+
+    navBar: {
+        backgroundColor: "#fa8231",
+    },
+
 }));
 
 export default function NavOpening() {
@@ -41,8 +46,8 @@ export default function NavOpening() {
 
     return (
 
-        <div className="">
-            <AppBar position="static">
+        <div>
+            <AppBar className={classes.navBar} position="static">
                 <Toolbar>
 
                     <Typography className={classes.title} variant="h6" noWrap>
