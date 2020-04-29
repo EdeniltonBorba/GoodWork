@@ -6,13 +6,11 @@
     background-image: url("./family.jpg");
 }
 
-
 .homeText {
     color: #fa8231;
     font-size: 66px;
     font-weight: 200;
 }
-
 
 .homeSubtitle {
     display: flex;
@@ -21,7 +19,6 @@
     padding: 0.25rem;
     background-color: #fa8231;
     padding: 1rem;
-
 }
 
 .homeRoot {
@@ -34,9 +31,7 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-
 }
-
 
 .mainTitle {
     color: white;
@@ -44,7 +39,6 @@
     text-align: center;
     margin-bottom: 1rem;
     margin-top: 1rem;
-
 }
 
 .buttonSign {

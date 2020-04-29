@@ -1,5 +1,5 @@
 import React from 'react';
-import { fade, makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -49,8 +49,7 @@ export default function NavOpening() {
         <div>
             <AppBar className={classes.navBar} position="static">
                 <Toolbar>
-
-                    <Typography className={classes.title} variant="h6" noWrap>
+                    <Typography className={classes.title} variant="h6">
                         <LogoOpening />
                     </Typography>
                 </Toolbar>
