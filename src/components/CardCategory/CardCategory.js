@@ -30,7 +30,6 @@ export default function SimplePaper({ setCategory, category }) {
                     <SelectCategory setCategory={setCategory} category={category} />
                 </h1>
             </Paper>
-
         </div>
     );
 }
