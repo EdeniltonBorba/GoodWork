@@ -6,7 +6,6 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import PersonalDetails from './PersonalDetails';
-import color from '@material-ui/core/colors/amber';
 import "./img.css"
 
 
