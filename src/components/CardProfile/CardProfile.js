@@ -23,7 +23,6 @@ export default function SimplePaper({ profiName }) {
         <div className={classes.root}>
             <Paper elevation={3}>
                 <UserProfile />
-
             </Paper>
         </div>
     );
