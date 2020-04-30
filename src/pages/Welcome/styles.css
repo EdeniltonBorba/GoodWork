@@ -1,27 +1,5 @@
-.grow {
-    flex-grow: 1,
-}
-
-.menuButton {
-    margin-right: 2rem;
-}
-
-.title {
-    display: 'none';
-    display: 'block';
-    margin-left: 80;
-}
-
-.sectionDesktop {
-    display: 'none';
-        display:'flex';
-        margin-right: 80;
-}
-
-.sectionMobile {
-    display: 'flex'; 
-}
-
-.navBar {
+.navBar{
     background-color: "#fa8231";
 }
+
+
