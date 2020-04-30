@@ -2,7 +2,7 @@ import React from "react";
 import NavOpening from "../../components/Navbar/NavOpening.js";
 import CardOpening from "../../components/CardOpening"
 
-function Opening() {
+function Welcome() {
     return (
         <div>
             <NavOpening />
@@ -10,4 +10,4 @@ function Opening() {
         </div>
     )
 }
-export default Opening;
+export default Welcome;
