@@ -5,7 +5,7 @@ import SignUp from "./pages/SignUp.js";
 import Profile from './pages/Profile.js';
 import SignIn from './pages/SignIn.js';
 import Thanks from './pages/Thanks.js';
-import Opening from './pages/Opening.js';
+import Welcome from './pages/Welcome/index';
 
 // Load Open Sans typeface
 import 'typeface-open-sans'
@@ -19,7 +19,7 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/" component={Opening} />
+          <Route exact path="/" component={Welcome} />
           <Route exact path="/SignIn" component={SignIn} />
           <Route exact path="/SignUp" component={SignUp} />
           <Route exact path="/Home" component={Home} />
