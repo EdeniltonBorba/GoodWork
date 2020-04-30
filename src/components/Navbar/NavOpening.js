@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import { LogoOpening } from '../Logo/Logo.js';
 
 
-const useStyles = makeStyles(theme => ({
+export const useStyles = makeStyles(theme => ({
     grow: {
         flexGrow: 1,
     },
