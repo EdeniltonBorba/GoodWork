@@ -1,5 +1,5 @@
 import React from "react";
-import AppBar from '@material-ui/core/AppBar';
+import AppBar from '../../components/AppBar/AppBar.js';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { LogoOpening } from '../../components/Logo/Logo';
@@ -9,7 +9,7 @@ import { Container } from "../../components/Grid";
 function Welcome() {
     return (
         <React.Fragment>
-            <AppBar position="relative" className="navBar">
+            <AppBar>
                 <Toolbar>
                     <LogoOpening />
                 </Toolbar>
