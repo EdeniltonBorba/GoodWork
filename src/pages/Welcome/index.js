@@ -1,9 +1,8 @@
 import React from "react";
-import AppBar from '../../components/AppBar/AppBar.js';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { LogoOpening } from '../../components/Logo/Logo';
-import "./styles.css";
+import { AppBar } from "./styles";
 import { Container } from "../../components/Grid";
 
 function Welcome() {

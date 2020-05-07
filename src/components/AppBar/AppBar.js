@@ -1,8 +1,8 @@
 import React from "react";
-import "./styles.css";
+import { appBar } from "./styles";
 
 export default () => <div>
-    <div className="appBar">
-    </div>
+    <appBar />
 </div>
+
 
