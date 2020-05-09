@@ -2,7 +2,14 @@ import React from "react";
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { LogoOpening } from '../../components/Logo/Logo';
-import { AppBar, HomeRoot, HomeImage } from "./styles";
+import {
+    AppBar,
+    WelcomeRoot,
+    WelcomeImage,
+    WelcomeBox,
+    WelcomeText,
+    CustomHelp
+} from "./styles";
 import { Container } from "../../components/Grid";
 import { Link } from "react-router-dom";
 
@@ -19,12 +26,14 @@ function Welcome() {
                 <div className="">
                     <Container maxWidth="sm">
                         <Typography>
-                            <HomeRoot>
-                                <HomeImage />
-                                <div className="homeBox">
-                                    <div className="homeText"><span class="customHelp">Help</span> around the home, at your fingertips</div>
-                                </div>
-                            </HomeRoot>
+                            <WelcomeRoot>
+                                <WelcomeImage />
+                                <WelcomeBox>
+                                    <WelcomeText>
+                                        <div><span className={`${CustomHelp}`}>Help</span> around the home, at your fingertips</div>
+                                    </WelcomeText>
+                                </WelcomeBox>
+                            </WelcomeRoot>
                             <div className="homeSubtitle">
                                 <div className="mainTitle">
                                     You don't always have to DIY. Get help from thousands of trusted Taskers for everything from home repairs to cleaning.
