@@ -44,3 +44,20 @@ export const CustomHelp = styled.div`
     padding: 0 1.0rem;
  `;
 
+export const HomeSubtitle = styled.div`
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25rem;
+    background-color: #fa8231;
+    padding: 1rem;
+ `;
+
+export const MainTitle = styled.div`
+ color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ `;
+
