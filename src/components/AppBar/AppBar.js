@@ -1,8 +1,10 @@
 import React from "react";
-import { appBar } from "./styles";
+import { AppBar } from "../../components/AppBar/styles";
 
 export default () => <div>
-    <appBar />
+    <React.Fragment>
+        <AppBar />
+    </React.Fragment>
 </div>
 
 
