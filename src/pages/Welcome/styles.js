@@ -47,38 +47,20 @@ export const WelcomeSubtitle = styled.div`
  display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0.25rem;
     background-color: #fa8231;
-    padding: 1rem;
  `;
 
 export const MainTitle = styled.div`
  color: white;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 1rem;
     margin-top: 1rem;
- `;
-
-export const ButtonSign = styled.div`
-    background-color: #fa8231;
-    color: white;
-    border-color: 1px solid white;
-    border-radius: 6px;
-    padding: 0.25rem 1rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    button {
-        &:hover {
-    background-color: white;
-    color: #fa8231;
-    border-color: 1px solid #fa8231;
-    }
-  }
  `;
 
 export const Buttons = styled.div`
  background-color: #fa8231;
+ padding: 1rem;
+ text-align: center;
  button {
     background-color: #fa8231;
     color: white;
