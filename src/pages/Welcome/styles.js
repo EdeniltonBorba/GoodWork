@@ -76,3 +76,21 @@ export const ButtonSign = styled.div`
     }
   }
  `;
+
+export const Buttons = styled.div`
+ background-color: #fa8231;
+ button {
+    background-color: #fa8231;
+    color: white;
+    border-color: 1px solid white;
+    border-radius: 6px;
+    padding: 0.25rem 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+        &:hover {
+    background-color: white;
+    color: #fa8231;
+    border-color: 1px solid #fa8231;
+ }
+}
+ `;

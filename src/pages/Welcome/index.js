@@ -10,9 +10,8 @@ import {
     WelcomeText,
     WelcomeSubtitle,
     MainTitle,
-    ButtonSign
+    Buttons
 } from "./styles";
-import { Container } from "../../components/Grid";
 import { Link } from "react-router-dom";
 
 
@@ -44,9 +43,9 @@ function Welcome() {
                     You don't always have to DIY. Get help from thousands of trusted Taskers for everything from home repairs to cleaning.
                 </MainTitle>
             </WelcomeSubtitle>
-            <ButtonSign>
+            <Buttons>
                 <Link to="/SignIn"><button>Sign In</button></Link><Link to="/SignUp"> <button>Sign Up</button></Link>
-            </ButtonSign>
+            </Buttons>
         </React.Fragment >
     )
 }
