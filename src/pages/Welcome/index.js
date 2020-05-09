@@ -8,8 +8,7 @@ import {
     WelcomeImage,
     WelcomeBox,
     WelcomeText,
-    CustomHelp,
-    HomeSubtitle,
+    WelcomeSubtitle,
     MainTitle,
     ButtonSign
 } from "./styles";
@@ -25,33 +24,29 @@ function Welcome() {
                     <LogoOpening />
                 </Toolbar>
             </AppBar>
-            <main>
-                <div className="">
-                    <Container maxWidth="sm">
-                        <Typography>
-                            <WelcomeRoot>
-                                <WelcomeImage />
-                                <WelcomeBox>
-                                    <div>
-                                        <WelcomeText>
-                                            <span>Help</span> around the home, at your fingertips
+            <div>
+                <Typography>
+                    <WelcomeRoot>
+                        <WelcomeImage />
+                        <WelcomeBox>
+                            <div>
+                                <WelcomeText>
+                                    <span>Help</span> around the home, at your fingertips
                                         </WelcomeText>
-                                    </div>
+                            </div>
 
-                                </WelcomeBox>
-                            </WelcomeRoot>
-                        </Typography>
-                    </Container>
-                </div>
-            </main >
-            <HomeSubtitle>
+                        </WelcomeBox>
+                    </WelcomeRoot>
+                </Typography>
+            </div>
+            <WelcomeSubtitle>
                 <MainTitle>
                     You don't always have to DIY. Get help from thousands of trusted Taskers for everything from home repairs to cleaning.
                 </MainTitle>
-            </HomeSubtitle>
-            <div>
-                <Link to="/SignIn"><button className={`${ButtonSign}`}>Sign In</button></Link><Link to="/SignUp"> <button className={`${ButtonSign}`}>Sign Up</button></Link>
-            </div>
+            </WelcomeSubtitle>
+            <ButtonSign>
+                <Link to="/SignIn"><button>Sign In</button></Link><Link to="/SignUp"> <button>Sign Up</button></Link>
+            </ButtonSign>
         </React.Fragment >
     )
 }

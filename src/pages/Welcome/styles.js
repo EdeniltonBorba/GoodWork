@@ -43,7 +43,7 @@ export const WelcomeText = styled.div`
     }
  `;
 
-export const HomeSubtitle = styled.div`
+export const WelcomeSubtitle = styled.div`
  display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,9 +61,18 @@ export const MainTitle = styled.div`
  `;
 
 export const ButtonSign = styled.div`
-color: #fa8231;
-    border-color: 1px solid #fa8231;
- &:hover {
+    background-color: #fa8231;
+    color: white;
+    border-color: 1px solid white;
+    border-radius: 6px;
+    padding: 0.25rem 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    button {
+        &:hover {
     background-color: white;
+    color: #fa8231;
+    border-color: 1px solid #fa8231;
+    }
   }
  `;
