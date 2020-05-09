@@ -8,7 +8,9 @@ import {
     WelcomeImage,
     WelcomeBox,
     WelcomeText,
-    CustomHelp
+    CustomHelp,
+    HomeSubtitle,
+    MainTitle
 } from "./styles";
 import { Container } from "../../components/Grid";
 import { Link } from "react-router-dom";
@@ -34,20 +36,22 @@ function Welcome() {
                                     </WelcomeText>
                                 </WelcomeBox>
                             </WelcomeRoot>
-                            <div className="homeSubtitle">
-                                <div className="mainTitle">
+                            <HomeSubtitle>
+                                <MainTitle>
                                     You don't always have to DIY. Get help from thousands of trusted Taskers for everything from home repairs to cleaning.
-        </div>
-                                <div className="homeCtas">
-                                    <Link to="/SignIn"><button className="buttonSign">Sign In</button></Link><Link to="/SignUp"> <button className="buttonSign">Sign Up</button></Link>
-                                </div>
+                                    </MainTitle>
+                            </HomeSubtitle>
 
+                            <div className="homeCtas">
+                                <Link to="/SignIn"><button className="buttonSign">Sign In</button></Link><Link to="/SignUp"> <button className="buttonSign">Sign Up</button></Link>
                             </div>
+
+
                         </Typography>
                     </Container>
                 </div>
-            </main>
-        </React.Fragment>
+            </main >
+        </React.Fragment >
     )
 }
 export default Welcome;
