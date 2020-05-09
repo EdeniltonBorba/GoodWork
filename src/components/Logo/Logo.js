@@ -9,7 +9,8 @@ const useStyles = makeStyles(theme => ({
     logoHomeStyle: {
         fontFamily: 'Prompt',
         fontSize: 40,
-        color: "white"
+        color: "white",
+        marginLeft: "9%",
     },
     logoSignStyle: {
         color: 'white',
