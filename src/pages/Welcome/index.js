@@ -32,9 +32,12 @@ function Welcome() {
                             <WelcomeRoot>
                                 <WelcomeImage />
                                 <WelcomeBox>
-                                    <WelcomeText>
-                                        <div><span className={`${CustomHelp}`}>Help</span> around the home, at your fingertips</div>
-                                    </WelcomeText>
+                                    <div>
+                                        <WelcomeText>
+                                            <span>Help</span> around the home, at your fingertips
+                                        </WelcomeText>
+                                    </div>
+
                                 </WelcomeBox>
                             </WelcomeRoot>
                         </Typography>

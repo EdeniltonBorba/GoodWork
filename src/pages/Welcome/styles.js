@@ -36,12 +36,11 @@ export const WelcomeText = styled.div`
  color: #fa8231;
     font-size: 66px;
     font-weight: 200;
- `;
-
-export const CustomHelp = styled.div`
- background-color: #fa8231;
+    span {
+        background-color: #fa8231;
     color: white;
     padding: 0 1.0rem;
+    }
  `;
 
 export const HomeSubtitle = styled.div`
