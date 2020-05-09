@@ -61,3 +61,10 @@ export const MainTitle = styled.div`
     margin-top: 1rem;
  `;
 
+export const ButtonSign = styled.div`
+color: #fa8231;
+    border-color: 1px solid #fa8231;
+ &:hover {
+    background-color: white;
+  }
+ `;
