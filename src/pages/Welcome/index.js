@@ -2,9 +2,10 @@ import React from "react";
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { LogoOpening } from '../../components/Logo/Logo';
-import { AppBar } from "./styles";
+import { AppBar, } from "./styles";
 import { Container } from "../../components/Grid";
 import { Link } from "react-router-dom";
+
 
 function Welcome() {
     return (
@@ -18,8 +19,8 @@ function Welcome() {
                 <div className="">
                     <Container maxWidth="sm">
                         <Typography>
-                            <div className="homeRoot">
-                                <div className="homeImage" />
+                            <div className="HomeRoot">
+                                <img className="HomeImage" src="./assets/image/family.jpg" alt="Card-img-cap" />
                                 <div className="homeBox">
                                     <div className="homeText"><span class="customHelp">Help</span> around the home, at your fingertips</div>
                                 </div>
