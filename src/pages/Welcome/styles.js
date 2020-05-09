@@ -11,4 +11,15 @@ flex-shrink: 0;
 flex-direction: column;
 `;
 
+export const homeRoot = styled.div`
+ display: flex;
+ `;
+
+export const homeImage = styled.div`
+ background-size: cover;
+ background-position: top;
+ width: 50%;
+ height: 600px;
+ background-image: url("./family.jpg");
+ `;
 
