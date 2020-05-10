@@ -10,7 +10,7 @@ import {
     WelcomeText,
     WelcomeSubtitle,
     MainTitle,
-    Buttons
+    Buttons,
 } from "./styles";
 import { Link } from "react-router-dom";
 
@@ -18,36 +18,34 @@ import { Link } from "react-router-dom";
 function Welcome() {
     return (
         <React.Fragment>
-            <main>
-                <AppBar>
-                    <Toolbar>
-                        <LogoOpening />
-                    </Toolbar>
-                </AppBar>
-                <div>
-                    <Typography>
-                        <WelcomeRoot>
-                            <WelcomeImage />
-                            <WelcomeBox>
-                                <div>
-                                    <WelcomeText>
-                                        <span>Help</span> around the home, at your fingertips
+            <AppBar>
+                <Toolbar>
+                    <LogoOpening />
+                </Toolbar>
+            </AppBar>
+            <div>
+                <Typography>
+                    <WelcomeRoot>
+                        <WelcomeImage />
+                        <WelcomeBox>
+                            <div>
+                                <WelcomeText>
+                                    <span>Help</span> around the home, at your fingertips
                                         </WelcomeText>
-                                </div>
+                            </div>
 
-                            </WelcomeBox>
-                        </WelcomeRoot>
-                    </Typography>
-                </div>
-                <WelcomeSubtitle>
-                    <MainTitle>
-                        You don't always have to DIY. Get help from thousands of trusted Taskers for everything from home repairs to cleaning.
+                        </WelcomeBox>
+                    </WelcomeRoot>
+                </Typography>
+            </div>
+            <WelcomeSubtitle>
+                <MainTitle>
+                    You don't always have to DIY. Get help from thousands of trusted Taskers for everything from home repairs to cleaning.
                 </MainTitle>
-                </WelcomeSubtitle>
-                <Buttons>
-                    <Link to="/SignIn"><button>Sign In</button></Link><Link to="/SignUp"> <button>Sign Up</button></Link>
-                </Buttons>
-            </main>
+            </WelcomeSubtitle>
+            <Buttons>
+                <Link to="/SignIn"><button>Sign In</button></Link><Link to="/SignUp"> <button>Sign Up</button></Link>
+            </Buttons>
         </React.Fragment >
     )
 }

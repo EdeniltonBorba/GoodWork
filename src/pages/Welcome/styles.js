@@ -22,9 +22,6 @@ export const WelcomeImage = styled.div`
  background-image: url(${img});
  width: 50%;
  height: 600px;
- @media (max-width: 400px) {
-    text-align: left;
-  }
  `;
 
 export const WelcomeBox = styled.div`
