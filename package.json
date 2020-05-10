@@ -10,12 +10,17 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "bulma": "^0.8.0",
+    "gatsby-plugin-styled-components": "^3.3.1",
+    "gatsby-plugin-typography": "^2.5.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-typography": "^0.16.19",
     "styled-components": "^5.1.0",
-    "typeface-open-sans": "0.0.75"
+    "typeface-open-sans": "0.0.75",
+    "typography": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19"
   },
   "scripts": {
     "start": "react-scripts start",
