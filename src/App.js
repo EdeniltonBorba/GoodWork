@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home.js";
-import SignUp from "./pages/SignUp.js";
+import SignUp from "./pages/Sign/SignUp.js";
 import Profile from './pages/Profile.js';
-import SignIn from './pages/SignIn.js';
+import SignIn from './pages/Sign/SignIn.js';
 import Thanks from './pages/Thanks.js';
 import Welcome from './pages/Welcome/index';
 
