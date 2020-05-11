@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar/Navbar.js";
-import { Container, Row, Col } from "../components/Grid/index.js";
-import CardImage from "../components/CardImage/CardImage.js";
-import CardCategory from "../components/CardCategory/CardCategory.js";
+import Navbar from "../../components/Navbar/Navbar.js";
+import { Container, Row, Col } from "../../components/Grid/index.js";
+import CardImage from "../../components/CardImage/CardImage.js";
+import CardCategory from "../../components/CardCategory/CardCategory.js";
 
 
 function Home() {
