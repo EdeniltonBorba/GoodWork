@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import img from '../../assets/image/family.jpg';
 
-export const AppBar = styled.div`
+export const Header = styled.div`
 background-color: #fa8231;
 position: relative;
 width: 100%;

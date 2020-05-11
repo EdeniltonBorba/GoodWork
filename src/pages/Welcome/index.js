@@ -3,7 +3,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { LogoOpening } from '../../components/Logo/Logo';
 import {
-    AppBar,
+    Header,
     WelcomeRoot,
     WelcomeImage,
     WelcomeBox,
@@ -18,11 +18,11 @@ import { Link } from "react-router-dom";
 function Welcome() {
     return (
         <React.Fragment>
-            <AppBar>
+            <Header>
                 <Toolbar>
                     <LogoOpening />
                 </Toolbar>
-            </AppBar>
+            </Header>
             <div>
                 <Typography>
                     <WelcomeRoot>
