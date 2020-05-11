@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar/Navbar.js";
+import AppBar from "../components/AppBar/AppBar.js";
 import { Container } from "../components/Grid/index.js";
 
 import CardThanks from "../components/CardThanks"
@@ -11,7 +11,7 @@ function Thanks() {
 
     return (
         <>
-            <Navbar />
+            <AppBar />
             <Container fluid>
                 <CardThanks />
             </Container>

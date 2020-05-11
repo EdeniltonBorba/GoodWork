@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../components/Navbar/Navbar";
+import AppBar from "../components/AppBar/AppBar.js";
 import { Container, Row, Col } from "../components/Grid/index.js";
 import CardProfile from "../components/CardProfile/CardProfile.js";
 import CardRegister from "../components/ButtonRegister/CardRegister.js"
@@ -11,7 +11,7 @@ function Profile() {
     return (
 
         <div>
-            <Navbar />
+            <AppBar />
             <Container fluid>
                 <Row>
                     <Col size="md-6">
