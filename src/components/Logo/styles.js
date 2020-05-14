@@ -8,4 +8,5 @@ export const StyleLogo = styled.div`
     font-weight: "normal";
     padding: 5px;
     font-size: 40px;
+    margin-left: 8%;
 `;
