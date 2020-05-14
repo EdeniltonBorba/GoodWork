@@ -5,7 +5,7 @@ import { StyleLogo } from '../Logo/styles';
 function Logo() {
     return (
         <StyleLogo>
-            kkjkjk
+            GoodWork
         </StyleLogo>
     )
 }
