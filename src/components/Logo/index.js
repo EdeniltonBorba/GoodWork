@@ -1,13 +1,12 @@
-import React from "react";
-import { LogoStyle } from '../../components/Logo/styles';
+import React from 'react';
+import { StyleLogo } from '../Logo/styles';
 
-function LogoGoodWork() {
+
+function Logo() {
     return (
-
-        <LogoStyle>
-            GoodWork
-        </LogoStyle>
-
+        <StyleLogo>
+            kkjkjk
+        </StyleLogo>
     )
 }
-export default LogoGoodWork;
+export default Logo;
