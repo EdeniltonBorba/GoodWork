@@ -10,7 +10,7 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-
+import LogoGoodWork from '../../components/Logo/index.js';
 
 function Copyright() {
     return (
@@ -68,7 +68,7 @@ export default function SignUp() {
         <Container component="main" maxWidth="xs">
             <CssBaseline />
             <div className={classes.paper}>
-
+                <LogoGoodWork />
                 <div className={classes.slogan}>
                     Sign in to find the best professionals
                 </div>
