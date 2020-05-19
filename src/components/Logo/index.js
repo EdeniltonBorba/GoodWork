@@ -1,14 +1,23 @@
 import React from 'react';
-import { StyleLogoHeader, StyleLogoAppBar } from '../Logo/styles';
+import { StyleLogoHeader, StyleLogoSign } from '../Logo/styles';
 
-function LogoHeader() {
+
+export function LogoHeader() {
     return (
         <StyleLogoHeader>
             GoodWork
         </StyleLogoHeader>
-    )
-}
-export default LogoHeader;
+    );
+};
+
+
+export function LogoSign() {
+    return (
+        <StyleLogoSign>
+            GoodWork
+        </StyleLogoSign>
+    );
+};
 
 
 

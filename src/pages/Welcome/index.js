@@ -1,7 +1,7 @@
 import React from "react";
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import LogoGoodWork from '../../components/Logo/index.js';
+import { LogoHeader } from '../../components/Logo/index.js';
 
 import {
     Header,
@@ -21,7 +21,7 @@ function Welcome() {
         <React.Fragment>
             <Header>
                 <Toolbar>
-                    <LogoGoodWork />
+                    <LogoHeader />
                 </Toolbar>
             </Header>
             <div>

@@ -12,7 +12,7 @@ export const StyleLogoHeader = styled.div`
 `;
 
 
-export const StyleLogoAppBar = styled.div`
+export const StyleLogoSign = styled.div`
     color: white;
     background-color: #fa8231;
     font-size: 100%;
